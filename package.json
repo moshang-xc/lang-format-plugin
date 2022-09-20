@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/reasyTeam/lang-format-plugin/issues"
   },
-  "homepage": "https://github.com/reasyTeam/lang-format-plugin#readme"
+  "homepage": "https://github.com/reasyTeam/lang-format-plugin#readme",
+  "devDependencies": {
+    "uglify-js": "^3.17.1"
+  }
 }
