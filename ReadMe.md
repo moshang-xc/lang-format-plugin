@@ -1,4 +1,4 @@
-# LangFormatPlugin
+# @reasy-team/lang-format-plugin
 
 ### 功能：
 
@@ -13,12 +13,12 @@
 
 配置参数：
 
-**fromDir**:  lang语言包原路径
+**fromDir**:  lang语言包源码路径
 
-**outDir**:  相对于输出目录的路径
+**outDir**:  要输出目录的相对路径
 
 ```js
-const JsonFormatPlugin = require("lang-format-plugin");
+const JsonFormatPlugin = require("@reasy-team/lang-format-plugin");
 new JsonFormatPlugin({
     fromDir: "./src/assets/lang/",
     outDir: "./lang/"
